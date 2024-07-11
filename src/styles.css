@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+html, 
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-image: linear-gradient(white, rgb(2, 66, 48))
+}
+
+app-root {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
